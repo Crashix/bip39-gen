@@ -32,6 +32,11 @@ Output:
 ['quality', 'scatter', 'suggest', 'quantum', 'fall', 'guilt', 'trip', 'behave', 'vendor', 'elegant', 'insect', 'soup', 'any', 'memory', 'early', 'wool', 'fatigue', 'swallow', 'bridge', 'oblige', 'story', 'lounge', 'awesome', 'wage']
 ```
 
+Or you can directly use a file containing your random binary digits with the `-f` option. For example:
+```
+python bip39gen.py -f test/test1
+```
+
 For more help:
 ```sh
 python bip39gen.py -h

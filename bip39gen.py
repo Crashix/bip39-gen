@@ -73,7 +73,9 @@ elif args.file:
             if c == "1" or c == "0":
                 args.binary += c
 
-    if args.verbose: print(f"length={(args.binary)}")
+    if args.verbose:
+        print(args.binary)
+        print(f"length={len(args.binary)}")
 
 # Check the length of the input
 if len(args.binary) != lennum:
